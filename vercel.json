@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "../core/view/daeuk.html",
+      "permanent": true
+    }
+  ]
+}
