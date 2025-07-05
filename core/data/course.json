@@ -1,0 +1,174 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "key": "Aps145",
+      "fullName": "Applied Problem Solving",
+      "grade": "A+",
+      "term": "Summer 2023",
+      "semester": 1
+    },
+    {
+      "id": 2,
+      "key": "COM111",
+      "fullName": "Comm Across Contexts (Enrich)",
+      "grade": "A+",
+      "term": "Summer 2023",
+      "semester": 1
+    },
+    {
+      "id": 3,
+      "key": "CPR101",
+      "fullName": "Comp. Principle for Programmer",
+      "grade": "A",
+      "term": "Summer 2023",
+      "semester": 1
+    },
+    {
+      "id": 4,
+      "key": "IPC144",
+      "fullName": "Intro to Programming Using C",
+      "grade": "A+",
+      "term": "Summer 2023",
+      "semester": 1,
+      "KeyCourse": true
+    },
+    {
+      "id": 5,
+      "key": "ULI101",
+      "fullName": "Intro Unix/Linux and Internet",
+      "grade": "A+",
+      "term": "Summer 2023",
+      "semester": 1,
+      "KeyCourse": true
+    },
+    {
+      "id": 6,
+      "key": "DBS221",
+      "fullName": "Intro to Database System",
+      "grade": "A+",
+      "term": "Fall 2023",
+      "semester": 2,
+      "KeyCourse": true
+    },
+    {
+      "id": 7,
+      "key": "Flm 278",
+      "fullName": "Introduction to Film Studies",
+      "grade": "A",
+      "term": "Fall 2023",
+      "semester": 2
+    },
+    {
+      "id": 8,
+      "key": "OOP224",
+      "fullName": "Object Oriented Programming",
+      "grade": "A",
+      "term": "Fall 2023",
+      "semester": 2,
+      "KeyCourse": true
+    },
+    {
+      "id": 9,
+      "key": "SFT221",
+      "fullName": "Software Testing",
+      "grade": "A+",
+      "term": "Fall 2023",
+      "semester": 2
+    },
+    {
+      "id": 10,
+      "key": "WEB222",
+      "fullName": "Web Programming Principles",
+      "grade": "A+",
+      "term": "Fall 2023",
+      "semester": 2,
+      "KeyCourse": true
+    },
+    {
+      "id": 11,
+      "key": "DBS311",
+      "fullName": "Advanced Database Services",
+      "grade": "A+",
+      "term": "Winter 2024",
+      "semester": 3,
+      "KeyCourse": true
+    },
+    {
+      "id": 12,
+      "key": "OOP345",
+      "fullName": "Software Development Using C++",
+      "grade": "A+",
+      "term": "WInter 2024",
+      "semester": 3,
+      "KeyCourse": true
+    },
+    {
+      "id": 13,
+      "key": "Psy172",
+      "fullName": "Group Dynamics",
+      "grade": "A+",
+      "term": "WInter 2024",
+      "semester": 3
+    },
+    {
+      "id": 14,
+      "key": "SYD366",
+      "fullName": "Software Analysis and Design I",
+      "grade": "A",
+      "term": "WInter 2024",
+      "semester": 3
+    },
+    {
+      "id": 15,
+      "key": "WEB322",
+      "fullName": "Web Prog. Tools and Frameworks",
+      "grade": "A+",
+      "term": "WInter 2024",
+      "semester": 3,
+      "KeyCourse": true
+    },
+    {
+      "id": 16,
+      "key": "DSA456",
+      "fullName": "Data Structires amd Algorithms",
+      "grade": "B",
+      "term": "Summer 2024",
+      "semester": 4,
+      "KeyCourse": true
+    },
+    {
+      "id": 17,
+      "key": "EAC273",
+      "fullName": "Children's Literacture",
+      "grade": "A+",
+      "term": "Summer 2024",
+      "semester": 4
+    },
+    {
+      "id": 18,
+      "key": "EAC594",
+      "fullName": "Comm Digital Workplace",
+      "grade": "A+",
+      "term": "Summer 2024",
+      "semester": 4
+    },
+    {
+      "id": 19,
+      "key": "MST300",
+      "fullName": "Intro to MS Cloud Technologies",
+      "grade": "A+",
+      "term": "Summer 2024",
+      "semester": 4,
+      "KeyCourse": true
+    },
+    {
+      "id": 20,
+      "key": "PMC444",
+      "fullName": "IT Project Mgmt Fundamentals",
+      "grade": "A+",
+      "term": "Summer 2024",
+      "semester": 4
+    }
+  ]
+}

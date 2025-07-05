@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daeuk Kim</title>
+  <link rel="icon" href="../image/title_logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<div id="contactBox" class="contact-box">
+  <div class="contact-header">
+    <img src="../image/contact_logo.png" alt="Contact Logo" />
+    <span class="contact-label">Contact</span>
+  </div>
+
+  <div id="contactOptions" class="contact-options">
+     <div class="contact-option">
+    <a href="tel:6478793598">
+      <img src="../image/phone.svg" alt="Phone Icon" />
+      &nbsp;Phone Call
+    </a>
+    <a href="mailto:a24738598@gmail.com">
+      <img src="../image/mail.svg" alt="Email Icon" />
+       &nbsp;Send Email
+    </a>
+    <a href="contact.html">Contact in Detail</a>
+  </div>
+  </div>
+</div>
+
+<body class="about">
+  <header>
+      <div class="navbar-container">
+    <div class="navbar">
+      <div class="logo ultra-regular">
+        <a href="daeuk.html">
+          <img src="../image/title_logo.png" alt="DK Logo" />
+        </a>
+      </div>
+      
+      <nav>
+        <ul class="nav-links left-menu">
+          <li><a href="daeuk.html" class="active">About</a></li>
+          <li><a href="course.html">Personal History</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+        </ul>
+      </nav>
+      
+      <nav>
+        <ul class="nav-links right-menu">
+          <li><a href="contact.html" class="contact-link">Contact Me</a></li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-wrapper">
+    <div class="intro-section">
+  <div class="intro-text">
+  <h2 class="roboto-regular-28pt"><b>Hello, I'm <span class="brown-text">Daeuk Kim</span></b></h2>
+  
+  <p class="times-regular-18pt" style="margin-left:25px">
+    A Junior <span class="highlightorg">web &amp; app developer</span>,<br />
+    graduate of the <span class="highlightorg">Computer Programming</span> at 
+    <span id="senecaBox" class="seneca-box">
+      <strong>Seneca College <span class="arrow">▼</span></strong>
+    </span>
+  </p>
+
+  <div id="jsonWrapper">
+    <div id="jsonContent">
+      <div id="senecaInfo">
+        <div id="titleWrapper">
+          <h2>Seneca College - Computer Programming</h2>
+          <img src="../image/seneca_logo.png" alt="Seneca Logo" />
+        </div>
+        <p><strong>Credential:</strong> <span id="credentialText"></span></p><p><strong>Cumulated GPA: </strong><span id="gpaText"></span><a href="../../transcript.pdf#zoom=80" target="_blank" class="transcript-button">My Transcript</a></p><p><strong>Period:</strong> May, 2023 ~ Aug, 2024 (2-year course)</p><p><strong>Review:</strong> <span id="descText"></span></p>
+      </div>
+    </div>
+  </div>
+
+  <p class="times-regular-18pt" style="margin-left:25px">
+    Have completed various <span class="highlightorg">front-end and back-end projects</span>,<br />
+    with a strong specialization in <span class="highlightorg">software development</span>.<br />
+    I excel at writing <span class="highlightorg">efficient and optimized codes.</span>
+  </p>
+</div>
+
+  <div class="intro-photo">
+    <img src="../image/profile.jpg" alt="Daeuk Kim Profile Photo" />
+  </div>
+</div>
+
+    <div class="info-section">
+  <div class="info-card">
+    <div class="info-card social-links">
+  <h3>Links</h3>
+      </div>
+  <div class="social-icons">
+    <a href="https://github.com/daeuk23?tab=repositories" target="_blank">
+      <img src="../image/github_banner.png" alt="GitHub" />
+    </a>
+    <a href="https://www.linkedin.com/in/daeuk-kim-68628231b/" target="_blank">
+      <img src="../image/linkedin_banner.png" alt="LinkedIn" />
+    </a>
+  </div>
+</div>
+
+<div class="info-card">
+  <div class="info-card skills">
+    <h3><a href="skills.html">Skills ➤</a></h3>
+  </div>
+
+  <div class="donut-chart-wrapper">
+    <canvas id="myDonutChart"></canvas>
+    <div class="chart-center-label">&lt; My Skill Distribution &gt;</div>
+  </div>
+</div>
+
+
+  <div class="info-card">
+    <div class="info-card projects">
+    <h3><a href="project.html">Projects ➤</a></h3>
+      </div>
+    <div class="info-card-texts">
+  <p><span class="label">Completed:</span> <span class="count">7+</span></p>
+  <p><span class="label">In Progress:</span> <span class="count">2+</span></p>
+</div>
+    </div>
+
+
+  <a href="../../Daeuk_Kim_Resume.pdf" class="info-card resume-card" target="_blank" rel="noopener noreferrer">
+  <h3>Open Resume</h3>
+</a>
+</div>
+
+  </main>
+
+  <footer>
+    <p>&copy; Daeuk Kim. All rights reserved | a24738598@gmail.com</p>
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+  document.body.classList.add('visible');
+
+  setTimeout(() => {
+    window.scrollTo(0, 0);
+  }, 0);
+});
+
+
+const senecaBox = document.getElementById("senecaBox");
+const jsonContent = document.getElementById("jsonContent");
+const output = document.getElementById("jsonOutput");
+
+const courseInfo = {
+  wholeCourse: {
+    credential: "Ontario College Diploma",
+    program: "Computer Programming",
+    "Credintial Honours": "with High Honours",
+    "Graduating GPA": "4.0/4.0",
+    complantion: "Aug 16, 2024",
+    Conferral: "Aug 31, 2024",
+    Honours: 3,
+    description:
+  "I successfully completed the Computer Programming program with a cumulative " +
+  "<span class='highlight'>GPA of 4.0/4.0</span>, earning <span class='highlight'>3 honours</span> and <span class='highlight'>A+ grades</span> in most courses.<br>" +
+  "In <span class='highlight'>core subjects</span> such as Object-Oriented Programming (OOP), Introduction to Programming using C (IPC), and Data Structures and Algorithms (DSA).<br> " +
+  "I developed a <span class='highlight'>strong understanding</span> and <span class='highlight'>frequently helped peers</span> with coursework and assignments.",
+  },
+};
+
+
+senecaBox.addEventListener("click", () => {
+  const isOpen = jsonContent.classList.toggle("open");
+  senecaBox.classList.toggle("open");
+
+  const arrow = senecaBox.querySelector(".arrow");
+  arrow.textContent = isOpen ? "▲" : "▼";
+
+  if (isOpen) {
+    const course = courseInfo.wholeCourse;
+    document.getElementById("credentialText").textContent = course.credential;
+    document.getElementById("gpaText").textContent = course["Graduating GPA"];
+    document.getElementById("descText").innerHTML = course.description;
+  } else {
+    document.getElementById("credentialText").textContent = "";
+    document.getElementById("gpaText").textContent = "";
+    document.getElementById("descText").textContent = "";
+  }
+});
+
+   const contactBox = document.getElementById("contactBox");
+  contactBox.addEventListener("click", function () {
+    contactBox.classList.toggle("open");
+  });
+
+
+    ScrollReveal().reveal('main', {
+    delay: 200,
+    duration: 1500,
+    distance: '40px',
+    origin: 'bottom',
+    easing: 'ease-out',
+    opacity: 0,
+    reset: false  
+  });
+  const bounceEffect = {
+    origin: 'top',
+    distance: '60px',
+    duration: 1200,
+    delay: 100,
+    easing: 'cubic-bezier(0.68, -0.55, 0.27, 1.55)', 
+    opacity: 0,
+    scale: 0.95,
+    reset: false
+  };
+
+  ScrollReveal().reveal('.info-card:nth-child(1)', {
+    ...bounceEffect,
+    delay: 300
+  });
+
+  ScrollReveal().reveal('.info-card:nth-child(2)', {
+    ...bounceEffect,
+    delay: 600
+  });
+  ScrollReveal().reveal('.info-card:nth-child(3)', {
+    ...bounceEffect,
+    delay: 900
+  });
+
+
+  ScrollReveal().reveal('.resume-card', {
+    ...bounceEffect,
+    delay: 1200,
+  });
+
+   window.addEventListener('scroll', function () {
+    const navbarContainer = document.querySelector('.navbar-container');
+    if (window.scrollY > 0) {
+      navbarContainer.classList.add('scrolled');
+    } else {
+      navbarContainer.classList.remove('scrolled');
+    }
+  });
+
+ const donutCtx = document.getElementById('myDonutChart').getContext('2d');
+
+const centerTextPlugin = {
+  id: 'centerText',
+  beforeDraw(chart) {
+    const {width, height, ctx} = chart;
+    ctx.restore();
+    const fontSize = 14;
+    ctx.font = `${fontSize}px Roboto`;
+    ctx.textBaseline = "middle";
+    ctx.fillStyle = '#333';
+    const text = "my skills distribution";
+    const textX = Math.round((width - ctx.measureText(text).width) / 2);
+    const textY = height / 2;
+    ctx.fillText(text, textX, textY);
+    ctx.save();
+  }
+};
+
+const donutData = {
+  labels: ['Back-End Techniques', 'Front-End Techniques', 'Database Skills', 'Cloud Computing'],
+  datasets: [{
+    data: [50, 30, 15, 5],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.8)',
+      'rgba(54, 162, 235, 0.8)',
+      'rgba(255, 159, 64, 0.8)',
+      'rgba(255, 205, 86, 0.8)'
+    ],
+    hoverOffset: 30,
+    borderWidth: 2,
+    borderColor: '#fff'
+  }]
+};
+
+const donutConfig = {
+  type: 'doughnut',
+  data: donutData,
+  options: {
+    responsive: false,               
+    maintainAspectRatio: false,     
+    plugins: {
+      legend: { display: false },
+     tooltip: {
+  enabled: true,
+  displayColors: false,
+  callbacks: {
+    title: () => '', 
+    label: function(context) {
+      const label = context.label || '';
+      const value = context.parsed || 0;
+      return `${label}: ${value}%`;
+    }
+  },
+  titleFont: {
+    family: 'Times New Roman',
+    size: 12
+  },
+  bodyFont: {
+    family: 'Times New Roman',
+    size: 12
+  }
+}
+    },
+    animation: {
+      animateRotate: true,
+      animateScale: true
+    }
+  }
+};
+
+new Chart(donutCtx, donutConfig);
+
+new Chart(donutCtx, donutConfig);
+
+
+
+  </script>
+</body>
+</html>

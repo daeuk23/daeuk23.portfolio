@@ -1,0 +1,140 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "name": "Lomelo-Bot",
+      "type": "Chat Bot",
+      "Description": "A multifunctional Discord chatbot entirely developed independently to boost engagement in a community server.\n\nThe bot includes music playback, AI-powered search, and match history tracking features.\n\nWithin two weeks of release, it exceeded the free-tier API quota due to high usage. To avoid ongoing costs, third-party invitations are currently disabled.\n\nThe project is actively maintained by myself, with future plans to add an item trading system.\n\nFor more details, please refer to the attached link.",
+      "skills": [
+        "java",
+        "JavaScript",
+        "Html",
+        "CSS",
+        "Express.js",
+        "Node.js",
+        "Python",
+        "React.js",
+        "tailwind",
+        "Bootstrap",
+        "Discord/library"
+      ],
+      "Readme-link": "https://github.com/daeuk23/lomello-Bot/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/lomello-Bot",
+      "Photos": [],
+      "status": "Deployed-Upgrading"
+    },
+    {
+      "id": 2,
+      "name": "OverFlow_Gem_Game",
+      "type": "application",
+      "Description": "It's a simple gem game that follows certain rules that I developed with my teammates.\n\nIt's a simple offline game that can be played by one or two people on one device.\n\nSince the end of the project, I have personally upgraded the AI algorithm function, the map size change function, the UI, etc.\n\nYou can find detailed explanations and downloads in the link below.",
+      "skills": ["Python"],
+      "Readme-link": "https://github.com/daeuk23/Overflow_gem_game/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/Overflow_gem_game",
+      "Photos": [
+        "gemgame-1.png",
+        "gemgame-2.png",
+        "gemgame-3.png",
+        "gemgame-4.png"
+      ],
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "name": "PortFolio",
+      "type": "Web app",
+      "Description": "A personal portfolio site built using Node.js and EJS to showcase all my completed projects and personal development skills.\n\nResponsive design, clean navigation, and data storage are all organized through JSON.\n\nWhen this site was created, no external packages were used, and the structure was designed entirely by myself. Any kind of 3rd party pre-made design tools were not used.\n\nThe specific project file is listed in the link below.",
+      "skills": [
+        "JavaScript",
+        "Html",
+        "CSS",
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js"
+      ],
+      "codes": "https://github.com/daeuk23/daeuk23.portfolio",
+      "status": "In Progress"
+    },
+    {
+      "id": 4,
+      "name": "Effecient_transport_system",
+      "type": "Algorithm",
+      "Description": "This project produced an algorithm to select the most efficient route for transporting goods and the most efficient route for the weight limit.\n\nIt is a program that is easy to use by changing the map environment or route environment according to conditions in the future.\n\nThe detailed explanation is in the link attached.",
+      "skills": ["C++", "C", "Zira", "mongoDB", "Unix/Liunx"],
+      "Readme-link": "https://github.com/daeuk23/Effecient_transport_system/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/Effecient_transport_system",
+      "status": "Completed"
+    },
+    {
+      "id": 5,
+      "name": "Order_Management",
+      "type": "Program",
+      "Description": "A lightweight program designed to manage customer orders, including item production through a simplified production line and delivery logistics.\n\nInitially created as a C++ practice project, it was later optimized for integration with external systems, inspired by real-world platforms such as Amazon and Uber Eats.",
+      "skills": ["C++"],
+      "Readme-link": "https://github.com/daeuk23/OrderManagement/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/OrderManagement",
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "name": "Financial_Store",
+      "type": "Web App",
+      "Description": "A simple web application that allows users to register and sell items, including my personal information and contact section.\n\nAs my first personal website capable of collecting and modifying data locally, it was designed without hosting functionality and runs exclusively in a local environment.\n\nThe core logic developed for this project was later reused in deployed applications such as Lomelo-Bot and ItemCenter.",
+      "skills": ["Html", "CSS", "JavaScript", "Node.js", "Express.js"],
+      "Readme-link": "https://github.com/daeuk23/Website_FinancialStore/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/Website_FinancialStore",
+      "Photos": ["itemcenter1", "itemcenter2", "itemcenter3", "itemcenter4"],
+      "status": "Completed"
+    },
+    {
+      "id": 7,
+      "name": "DaeukKim's_ItemCenter",
+      "type": "Web App",
+      "Description": "A web application designed for listing and selling items, featuring user contact details, item categories, inventory tracking, and item management.\n\nOriginally built to support external inventory sales, the project was later extended with core C++ logic from a previous project, adding functionality such as order management, user authentication (login), and personal data registration and control.\n\nHosting was discontinued in April 2024 due to exceeding free-tier limits and MongoDB data retention issues. However, the complete system remains available for local use and can be downloaded as a standalone tool.\n\nKey modules from this project are scheduled to be integrated into Lomelo-Bot in August 2025, where they will power game item sales and related management features.",
+      "skills": [
+        "C",
+        "C++",
+        "Html",
+        "CSS",
+        "JavaScript",
+        "Node.js",
+        "Express.js",
+        "tailwind",
+        "NoSql",
+        "PostgreSql",
+        "mongoDB"
+      ],
+      "Readme-link": "https://github.com/daeuk23/DaeukKim-s_ItemCenter/blob/main/README.md",
+      "codes": "https://github.com/daeuk23/DaeukKim-s_ItemCenter",
+      "status": "Completed"
+    },
+    {
+      "id": 8,
+      "name": "Medicine-Inventory-management",
+      "type": "Program",
+      "Description": "A simple system designed for efficient inventory management by category.\n\nIt served as a foundational structure for handling database operations and was later integrated into other applications I developed, including the inventory management module of a financial-store system.",
+      "skills": ["C++"],
+      "Readme-link": "https://github.com/daeuk23/Medicine-Inventory-management/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/Medicine-Inventory-management",
+      "status": "Completed"
+    },
+    {
+      "id": 9,
+      "name": "Hospital_Scheduler",
+      "type": "program",
+      "Description": "A lightweight veterinary clinic program developed to manage patient registration and appointment scheduling.\n\nThe core logic of this system was later reused in other personal projects I worked on, including a financial store application that required data storage and modification features.",
+      "skills": ["C", "Unix/Linux"],
+      "Readme-link": "https://github.com/daeuk23/hospital_scheduler/blob/main/readme.md",
+      "codes": "https://github.com/daeuk23/hospital_scheduler",
+      "Photos": [
+        "hospital__scheduler1",
+        "hospital__scheduler2",
+        "hospital__scheduler3",
+        "hospital__scheduler4",
+        "hospital__scheduler5"
+      ],
+      "status": "Completed"
+    }
+  ]
+}

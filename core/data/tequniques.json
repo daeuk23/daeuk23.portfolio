@@ -1,0 +1,188 @@
+{
+  "tequniques": [
+    {
+      "languages": [
+        {
+          "id": 1,
+          "name": "C",
+          "endProject": true,
+          "logo": "C_logo.png"
+        },
+        {
+          "id": 2,
+          "name": "C++",
+          "endProject": true,
+          "logo": "C++_logo.png"
+        },
+        {
+          "id": 3,
+          "name": "Python",
+          "endProject": true,
+          "logo": "Python_logo.png"
+        },
+        {
+          "id": 4,
+          "name": "Java",
+          "endProject": true,
+          "logo": "java_logo.png"
+        },
+        {
+          "id": 5,
+          "name": "JavaScript",
+          "endProject": true,
+          "logo": "JavaScript_logo.png"
+        },
+        {
+          "id": 6,
+          "name": "TypeScript",
+          "endProject": true,
+          "logo": "TypeScript_logo.png"
+        },
+        {
+          "id": 7,
+          "name": "Html",
+          "endProject": true,
+          "logo": "Html_logo.png"
+        },
+        {
+          "id": 8,
+          "name": "CSS",
+          "endProject": true,
+          "logo": "CSS_logo.png"
+        },
+        {
+          "id": 9,
+          "name": "Bash",
+          "endProject": false,
+          "logo": "Bash_logo.png"
+        },
+        {
+          "id": 10,
+          "name": "SQL",
+          "endProject": false,
+          "logo": "SQL_logo.png"
+        }
+      ],
+      "Database": [
+        {
+          "id": 1,
+          "name": "Oracle",
+          "endProject": false,
+          "logo": "Oracle_logo.png"
+        },
+        {
+          "id": 2,
+          "name": "MongoDB",
+          "endProject": true,
+          "logo": "MongoDB_logo.png"
+        },
+        {
+          "id": 3,
+          "name": "PostgreSQL",
+          "endProject": true,
+          "logo": "PostgreSQL_logo.png"
+        },
+        {
+          "id": 4,
+          "name": "MYSQL",
+          "endProject": false,
+          "logo": "MYSQL_logo.png"
+        }
+      ],
+      "WebDevelopeSkills": [
+        {
+          "id": 1,
+          "name": "EJS",
+          "endProject": true,
+          "logo": "EJS_logo.png"
+        },
+        {
+          "id": 2,
+          "name": "React.js",
+          "endProject": true,
+          "logo": "React.js_logo.png"
+        },
+        {
+          "id": 3,
+          "name": "Node.js",
+          "endProject": true,
+          "logo": "Node.js_logo.png"
+        },
+        {
+          "id": 4,
+          "name": "Express.js",
+          "endProject": true,
+          "logo": "Express.js_logo.png"
+        },
+        {
+          "id": 5,
+          "name": "BootStrap",
+          "endProject": true,
+          "logo": "BootStrap_logo.png"
+        },
+        {
+          "id": 6,
+          "name": "Next.js",
+          "endProject": false,
+          "logo": "Next.js_logo.png"
+        },
+        {
+          "id": 7,
+          "name": "discord/library",
+          "endProject": true,
+          "logo": "Discord_logo.png"
+        },
+        {
+          "id": 8,
+          "name": "Tailwind",
+          "endProject": true,
+          "logo": "Tailwind_logo.png"
+        }
+      ],
+      "Tools": [
+        {
+          "id": 1,
+          "name": "Git",
+          "endProject": true,
+          "logo": "Git_logo.png"
+        },
+        {
+          "id": 2,
+          "name": "MicrosoftAzure",
+          "endProject": false,
+          "logo": "MicrosoftAzure_logo.png"
+        },
+        {
+          "id": 3,
+          "name": "Unix/Linux",
+          "endProject": true,
+          "logo": "Unix,Linux_logo.png"
+        },
+        {
+          "id": 4,
+          "name": "Jira",
+          "endProject": true,
+          "logo": "Jira_logo.svg"
+        },
+        {
+          "id": 5,
+          "name": "VisualParadime",
+          "endProject": true,
+          "logo": "VisualParadime_logo.png"
+        },
+        {
+          "id": 6,
+          "name": "Adobe",
+          "endProject": false,
+          "logo": "Adobe_logo.png"
+        },
+        {
+          "id": 7,
+          "name": "Excel",
+          "endProject": true,
+          "logo": "Excel_logo.png"
+        }
+      ]
+    }
+  ]
+}

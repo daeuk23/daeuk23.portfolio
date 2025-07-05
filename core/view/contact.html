@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daeuk Kim</title>
+    <link rel="icon" href="../image/title_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+
+  <body class="contact">
+    <header>
+      <div class="navbar-container">
+        <div class="navbar">
+          <div class="logo ultra-regular">
+            <a href="daeuk.html">
+              <img src="../image/title_logo.png" alt="DK Logo" />
+            </a>
+          </div>
+
+          <nav>
+            <ul class="nav-links left-menu">
+              <li><a href="daeuk.html">About</a></li>
+              <li><a href="course.html">Personal History</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="project.html">Projects</a></li>
+            </ul>
+          </nav>
+
+          <nav>
+            <ul class="nav-links right-menu">
+              <li>
+                <a href="contact.html" class="contact-link">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-wrapper contactsr">
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 40px;
+          "
+        >
+          <div
+            class="noto-serif-28pt"
+            style="
+              line-height: 0.5;
+              text-align: center;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            "
+          >
+            Contact Me
+          </div>
+          <div style="font-size: 20px; line-height: 1; text-align: center">
+            _____________________
+          </div>
+        </div>
+
+        <!-- Contact Box -->
+        <div
+          style="
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+            display: flex;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+          "
+        >
+          <!-- Left: Form -->
+          <div
+            style="
+              flex: 1;
+              background-color: #1c1c1e;
+              padding: 40px;
+              color: white;
+            "
+          >
+            <h2 style="margin-bottom: 20px">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chat-left-dots"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1z"
+                />
+                <path
+                  d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                /></svg
+              >&nbsp;&nbsp;Get In Touch
+            </h2>
+
+            <form id="contact-form">
+              <input
+                type="text"
+                name="user_name"
+                placeholder="Name"
+                style="
+                  width: 100%;
+                  margin-bottom: 15px;
+                  padding: 10px;
+                  border: none;
+                  border-bottom: 1px solid #666;
+                  background: transparent;
+                  color: white;
+                "
+              />
+              <input
+                type="email"
+                name="user_email"
+                placeholder="Email"
+                style="
+                  width: 100%;
+                  margin-bottom: 15px;
+                  padding: 10px;
+                  border: none;
+                  border-bottom: 1px solid #666;
+                  background: transparent;
+                  color: white;
+                "
+              />
+              <input
+                type="text"
+                name="user_subject"
+                placeholder="Subject"
+                style="
+                  width: 100%;
+                  margin-bottom: 15px;
+                  padding: 10px;
+                  border: none;
+                  border-bottom: 1px solid #666;
+                  background: transparent;
+                  color: white;
+                "
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="4"
+                style="
+                  width: 100%;
+                  margin-bottom: 15px;
+                  padding: 10px;
+                  border: none;
+                  border-bottom: 1px solid #666;
+                  background-color: #1c1c1e;
+                  color: white;
+                "
+              ></textarea>
+
+              <div
+                id="drop-area"
+                style="
+                  border: 2px dashed #888;
+                  padding: 12px 20px;
+                  text-align: center;
+                  color: #ccc;
+                  margin-top: 10px;
+                  margin-bottom: 20px;
+                  cursor: pointer;
+                "
+              >
+                Drag & Drop files here or click to <br />
+                <div style="color: red; font-size: 8pt; padding-top: 5pt">
+                  FIle Upload functionality is currently unavailable
+                </div>
+              </div>
+
+              <!-- Hidden file input -->
+              <input
+                id="fileElem"
+                type="file"
+                name="attachments[]"
+                multiple
+                style="display: none"
+              />
+
+              <!-- Uploaded File List -->
+              <ul
+                id="file-list"
+                style="list-style: none; padding: 0; color: white"
+              ></ul>
+
+              <button
+                type="submit"
+                style="
+                  padding: 10px 20px;
+                  background-color: orange;
+                  border: none;
+                  color: white;
+                  border-radius: 4px;
+                  cursor: pointer;
+                "
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Right: Contact Info -->
+          <div
+            style="
+              flex: 1;
+              background-color: #121212;
+              padding: 50px;
+              color: white;
+            "
+          >
+            <h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-info-circle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                />
+                <path
+                  d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                />
+              </svg>
+              &nbsp;&nbsp;My Information
+            </h3>
+            <p style="opacity: 0.7; line-height: 1.8">
+              Feel free to send me a message or a chat.
+            </p>
+            <p><strong>📞 Phone:</strong> +1&#41; 647-879-3598</p>
+            <p><strong>✉️ Email:</strong> a24738598@gmail.com</p>
+            <p>
+              <strong>🌐 Website</strong><br /><br />
+              <a
+                href="https://github.com/daeuk23?tab=repositories"
+                target="_blank"
+                style="margin-right: 10px"
+              >
+                <img
+                  src="../image/icons8-github.svg"
+                  alt="GitHub"
+                  width="36"
+                  height="36"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/daeuk-kim-68628231b/"
+                target="_blank"
+                style="margin-right: 10px"
+              >
+                <img
+                  src="../image/icons8-linkedin.svg"
+                  alt="LinkedIn"
+                  width="36"
+                  height="36"
+                />
+              </a>
+              <a
+                href="https://discord.com/users/ddiyong0423"
+                target="_blank"
+                style="margin-right: 10px"
+              >
+                <img
+                  src="../image/discord.svg"
+                  alt="Discord"
+                  width="36"
+                  height="36"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; Daeuk Kim. All rights reserved | a24738598@gmail.com</p>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("k0J9RyHRSB7tce3Z1");
+      })();
+
+      window.addEventListener("scroll", function () {
+        const navbarContainer = document.querySelector(".navbar-container");
+        if (window.scrollY > 0) {
+          navbarContainer.classList.add("scrolled");
+        } else {
+          navbarContainer.classList.remove("scrolled");
+        }
+      });
+
+      const dropArea = document.getElementById("drop-area");
+      const fileInput = document.getElementById("fileElem");
+      const fileList = document.getElementById("file-list");
+      let uploadedFiles = [];
+
+      // Prevent default drag behaviors
+      ["dragenter", "dragover", "dragleave", "drop"].forEach((eventName) => {
+        dropArea.addEventListener(
+          eventName,
+          (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+          },
+          false,
+        );
+      });
+
+      // Highlight drag area
+      ["dragenter", "dragover"].forEach((eventName) => {
+        dropArea.addEventListener(
+          eventName,
+          () => {
+            dropArea.style.borderColor = "orange";
+          },
+          false,
+        );
+      });
+
+      ["dragleave", "drop"].forEach((eventName) => {
+        dropArea.addEventListener(
+          eventName,
+          () => {
+            dropArea.style.borderColor = "#888";
+          },
+          false,
+        );
+      });
+
+      // Handle dropped files
+      dropArea.addEventListener("drop", handleDrop, false);
+
+      // Open file dialog on click
+      dropArea.addEventListener("click", () => fileInput.click());
+
+      // Handle manual file selection
+      fileInput.addEventListener("change", () => {
+        handleFiles(fileInput.files);
+        fileInput.value = ""; // allow re-uploading same file if needed
+      });
+
+      function handleDrop(e) {
+        const files = e.dataTransfer.files;
+        handleFiles(files);
+      }
+
+      function handleFiles(files) {
+        for (let i = 0; i < files.length; i++) {
+          const file = files[i];
+          // 중복 체크
+          if (
+            !uploadedFiles.find(
+              (f) => f.name === file.name && f.size === file.size,
+            )
+          ) {
+            uploadedFiles.push(file);
+          }
+        }
+        updateFileList();
+        updateFileInput();
+      }
+
+      function updateFileList() {
+        fileList.innerHTML = "";
+        uploadedFiles.forEach((file, index) => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+  ${file.name}
+  <button onclick="removeFile(${index})" style="margin-left: 10px; background: none; border: none; color: red; font-weight: bold; cursor: pointer;">X</button>
+`;
+          fileList.appendChild(li);
+        });
+
+        dropArea.textContent =
+          uploadedFiles.length > 0
+            ? `${uploadedFiles.length} Files ready for upload`
+            : "Drag & Drop files here or click to upload";
+      }
+
+      // Remove file by index
+      window.removeFile = function (index) {
+        uploadedFiles.splice(index, 1);
+        updateFileList();
+        updateFileInput();
+      };
+
+      // 드래그앤드롭 한 파일들로 file input을 다시 세팅
+      function updateFileInput() {
+        const dataTransfer = new DataTransfer();
+        uploadedFiles.forEach((file) => {
+          dataTransfer.items.add(file);
+        });
+        fileInput.files = dataTransfer.files;
+      }
+
+      // 이메일 전송 - 첨부파일 1개 base64 변환 후 send()
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const form = this;
+          const files = uploadedFiles;
+
+          // 기본 폼 데이터
+          const templateParams = {
+            user_name: form.user_name.value,
+            user_email: form.user_email.value,
+            user_subject: form.user_subject.value,
+            message: form.message.value,
+          };
+
+          if (files.length === 0) {
+            // 파일 없으면 그냥 보내기
+            emailjs
+              .send("service_wwaabvr", "template_5sm9579", templateParams)
+              .then(() => {
+                alert("Message sent successfully!");
+                form.reset();
+                uploadedFiles = [];
+                updateFileList();
+                dropArea.textContent =
+                  "Drag & Drop files here or click to upload";
+              })
+              .catch((error) => {
+                alert("Failed to send message: " + JSON.stringify(error));
+              });
+          } else {
+            // 첨부파일 1개만 처리
+            const file = files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+              const base64File = e.target.result.split(",")[1]; // base64 부분만 추출
+
+              const paramsWithAttachment = {
+                ...templateParams,
+                attachment: base64File,
+                attachment_filename: file.name,
+                attachment_type: file.type,
+              };
+
+              emailjs
+                .send(
+                  "service_wwaabvr",
+                  "template_5sm9579",
+                  paramsWithAttachment,
+                )
+                .then(() => {
+                  alert("Message sent successfully!");
+                  form.reset();
+                  uploadedFiles = [];
+                  updateFileList();
+                  dropArea.textContent =
+                    "Drag & Drop files here or click to upload";
+                })
+                .catch((error) => {
+                  alert("Failed to send message: " + JSON.stringify(error));
+                });
+            };
+
+            reader.readAsDataURL(file);
+          }
+        });
+    </script>
+  </body>
+</html>

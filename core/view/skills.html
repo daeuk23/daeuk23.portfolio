@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daeuk Kim</title>
+  <link rel="icon" href="../image/title_logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+
+<div id="contactBox" class="contact-box">
+  <div class="contact-header">
+    <img src="../image/contact_logo.png" alt="Contact Logo" />
+    <span class="contact-label">Contact</span>
+  </div>
+
+  <div id="contactOptions" class="contact-options">
+     <div class="contact-option">
+    <a href="tel:6478793598">
+      <img src="../image/phone.svg" alt="Phone Icon" />
+      &nbsp;Phone Call
+    </a>
+    <a href="mailto:a24738598@gmail.com">
+      <img src="../image/mail.svg" alt="Email Icon" />
+       &nbsp;Send Email
+    </a>
+    <a href="contact.html">Contact in Detail</a>
+  </div>
+  </div>
+</div>
+
+<body class="skillsets">
+  <header>
+      <div class="navbar-container">
+    <div class="navbar">
+      <div class="logo ultra-regular">
+        <a href="daeuk.html">
+          <img src="../image/title_logo.png" alt="DK Logo" />
+        </a>
+      </div>
+      
+      <nav>
+        <ul class="nav-links left-menu">
+          <li><a href="daeuk.html" >About</a></li>
+          <li><a href="course.html">Personal History</a></li>
+          <li><a href="skills.html"class="active">Skills</a></li>
+          <li><a href="project.html">Projects</a></li>
+        </ul>
+      </nav>
+      
+      <nav>
+        <ul class="nav-links right-menu">
+          <li><a href="contact.html" class="contact-link">Contact Me</a></li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </header>
+
+ <main>
+  <div class="main-wrapper skillsets">
+
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-bottom: 40px;">
+      <div class="noto-serif-28pt" style="line-height: 0.5; text-align: center; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
+        Skills
+      </div>
+      <div style="font-size: 20px; line-height: 1; text-align: center;">__________</div>
+     <div style="display: flex; align-items: center; gap: 10px; opacity: 0.6; font-size: 14px; margin-top:10px; margin-bottom: 20px;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+    class="bi bi-pin-fill" viewBox="0 0 16 16">
+    <path
+      d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A6 6 0 0 1 5 6.708V2.277a3 3 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354" />
+  </svg>
+  <span>My Techniques</span>
+</div>
+
+<div style="width: 100%; display: flex; justify-content: flex-end; padding-right: 10px; margin-top: 4px; margin-bottom: 20px; margin-right: 160px">
+  <div style="font-family: 'Times New Roman', serif; font-size: 16pt; font-weight: bold; color: black; white-space: nowrap;">
+    Familiar <span style="color: black;">|</span> <span style="color: purple;">Proficient</span>
+  </div>
+</div>
+
+
+<div class="skill-category-container">
+  <div class="skill-section" style="font-family: 'Times New Roman', serif; font-size: 16pt; font-weight: bold; color: black; margin-top: 40px; margin-bottom: 15px;">
+    <h3 style="margin-bottom: 50px;">Programming Languages</h3>
+    <div class="skill-grid" id="language-skills"></div>
+  </div>
+  <div class="skill-section" style="font-family: 'Times New Roman', serif; font-size: 16pt; font-weight: bold; color: black; margin-bottom: 15px;">
+    <h3 style="margin-bottom: 50px;">Databases</h3>
+    <div class="skill-grid" id="database-skills"></div>
+  </div>
+  <div class="skill-section" style="font-family: 'Times New Roman', serif; font-size: 16pt; font-weight: bold; color: black; margin-bottom: 15px;">
+    <h3 style="margin-bottom: 50px;">Web Development Frameworks</h3>
+    <div class="skill-grid" id="web-skills"></div>
+  </div>
+  <div class="skill-section" style="font-family: 'Times New Roman', serif; font-size: 16pt; font-weight: bold; color: black; margin-bottom: 15px;">
+    <h3 style="margin-bottom: 50px;">Tools</h3>
+    <div class="skill-grid" id="tool-skills"></div>
+  </div>
+</div>
+
+
+</main>
+
+
+  <footer>
+    <p>&copy; Daeuk Kim. All rights reserved | a24738598@gmail.com</p>
+  </footer>
+
+    <script>
+
+         window.addEventListener('scroll', function () {
+    const navbarContainer = document.querySelector('.navbar-container');
+    if (window.scrollY > 0) {
+      navbarContainer.classList.add('scrolled');
+    } else {
+      navbarContainer.classList.remove('scrolled');
+    }
+  });
+  
+        const contactBox = document.getElementById("contactBox");
+  contactBox.addEventListener("click", function () {
+    contactBox.classList.toggle("open");
+  });
+
+   const skillData = {
+    languages: [
+      { name: "C", endProject: true, logo: "C_logo.png" },
+      { name: "C++", endProject: true, logo: "C++_logo.png" },
+      { name: "Python", endProject: true, logo: "Python_logo.png" },
+      { name: "Java", endProject: false, logo: "java_logo.png" },
+      { name: "JavaScript", endProject: true, logo: "JavaScript_logo.png" },
+      { name: "TypeScript", endProject: true, logo: "TypeScript_logo.png" },
+      { name: "Html", endProject: true, logo: "Html5_logo.png" },
+      { name: "CSS", endProject: true, logo: "CSS_logo.png" },
+      { name: "Bash", endProject: false, logo: "Bash_logo.png" },
+      { name: "SQL", endProject: false, logo: "SQL_logo.png" }
+    ],
+    database: [
+      { name: "Oracle", endProject: false, logo: "Oracle_logo.png" },
+      { name: "MongoDB", endProject: true, logo: "MongoDB_logo.png" },
+      { name: "PostgreSQL", endProject: true, logo: "PostgreSQL_logo.png" },
+      { name: "MYSQL", endProject: false, logo: "MYSQL_logo.png" }
+    ],
+    web: [
+      { name: "EJS", endProject: true, logo: "EJS_logo.png" },
+      { name: "React.js", endProject: true, logo: "React.js_logo.png" },
+      { name: "Node.js", endProject: true, logo: "Node.js_logo.png" },
+      { name: "Express.js", endProject: true, logo: "Express.js_logo.png" },
+      { name: "BootStrap", endProject: true, logo: "BootStrap_logo.png" },
+      { name: "Next.js", endProject: true, logo: "Next.js_logo.png" },
+      { name: "discord / library", endProject: true, logo: "Discord_logo.png" },
+      { name: "Tailwind", endProject: true, logo: "Tailwind_logo.png" }
+    ],
+    tools: [
+      { name: "Git", endProject: true, logo: "Git_logo.png" },
+      { name: "Microsoft Azure", endProject: false, logo: "MicrosoftAzure_logo.png" },
+      { name: "Unix/Linux", endProject: true, logo: "Unix,Linux_logo.png" },
+      { name: "Jira", endProject: true, logo: "Jira_logo.png" },
+      { name: "Visual Paradime", endProject: true, logo: "VisualParadigm_logo.png" },
+      { name: "Adobe", endProject: false, logo: "Adobe_logo.png" },
+      { name: "Excel", endProject: true, logo: "Excel_logo.png" }
+    ]
+  };
+
+  function renderSkills(containerId, skills) {
+  const container = document.getElementById(containerId);
+  skills.forEach(skill => {
+    const card = document.createElement('div');
+    card.className = 'skill-card'; 
+    card.innerHTML = `
+      <div class="hexagon">
+        <img src="../image/tequniquespics/${skill.logo}" alt="${skill.name} Logo">
+      </div>
+      <div class="skill-name ${skill.endProject ? 'skill-true' : 'skill-false'}">${skill.name}</div>
+    `;
+    container.appendChild(card);
+  });
+}
+  renderSkills('language-skills', skillData.languages);
+  renderSkills('database-skills', skillData.database);
+  renderSkills('web-skills', skillData.web);
+  renderSkills('tool-skills', skillData.tools);
+
+    ScrollReveal().reveal('.skill-card', {
+  origin: 'bottom',
+  distance: '30px',
+  duration: 600,
+  easing: 'ease-in-out',
+  interval: 150, 
+  reset: false 
+});
+
+    </script>
+    </body>
+    </html>
