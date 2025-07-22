@@ -12,10 +12,12 @@
 }
 
 .intro-photo img {
-  width: 150px;
+  width: 260px;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
+  margin-right: 10px;
 }
 
 @media (max-width: 768px) {
@@ -24,9 +26,6 @@
     text-align: center;
   }
 
-  .intro-photo img {
-    margin-top: 15px;
-  }
 
   .intro-text {
     min-width: auto;
@@ -765,7 +764,7 @@ body.about.visible > main {
   align-self: flex-start;
   margin-left: auto;
   margin-right: 110px;
-  margin-top: 60px;
+  margin-top: 0px;
   max-width: max-content;
   width: max-content;
   height: 40px;
