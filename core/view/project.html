@@ -243,6 +243,10 @@ projects.Projects.forEach(p => {
   card.innerHTML = `
     <div class="project-header">
       <h3>${p.name}</h3>
+      <div class="status-box ${p.status.replace(/\s+/g, '-').toLowerCase()}">
+  <span class="status-dot"></span>
+  <span class="status-text">${p.status}</span>
+</div>
     </div>
 
     <p class="project-desc">${p.Description}</p>
