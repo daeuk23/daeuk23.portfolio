@@ -243,9 +243,6 @@ projects.Projects.forEach(p => {
   card.innerHTML = `
     <div class="project-header">
       <h3>${p.name}</h3>
-      ${p.Photos && p.Photos.length > 0 
-        ? `<img src="../image/${p.Photos[0]}" alt="${p.name}" class="project-thumb" />` 
-        : `<div class="no-thumb">No Image</div>`}
     </div>
 
     <p class="project-desc">${p.Description}</p>
