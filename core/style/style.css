@@ -1182,6 +1182,10 @@ a {
   padding: 20px;
   position: relative;
   transition: transform 0.2s;
+  display: flex;
+  flex-direction: column; /* 세로 배치 */
+  justify-content: space-between; /* 위 내용 + 아래 버튼 영역 */
+  min-height: 330px; /* 전체 높이 통일 */
 }
 
 .project-card:hover {
@@ -1222,7 +1226,9 @@ a {
 
 .project-buttons {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  gap: 12px;
+  margin-top: auto;
 }
 
 .btn {
@@ -1264,16 +1270,68 @@ a {
   max-width: 90%;
   max-height: 80%;
   overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 같은 크기 배치 */
+  gap: 10px;
+  justify-items: center;
 }
 
 .photo-box img {
   width: 200px;
-  margin: 5px;
+  height: 200px; /* 정사각형 유지 */
+  object-fit: cover; /* 비율 왜곡 없이 자르기 */
   border-radius: 8px;
+  transition: transform 0.2s;
+}
+.photo-box img:hover {
+  transform: scale(1.05);
 }
 
 .close-viewer {
   display: block;
   margin: 10px auto 0;
   padding: 5px 10px;
+}
+
+/* 상태 박스 */
+.status-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  background: #f5f5f5;
+}
+
+/* 공통 점 스타일 */
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* ✅ In Progress (초록색) */
+.status-box.in-progress .status-dot {
+  background-color: #2ecc71;
+}
+.status-box.in-progress .status-text {
+  color: #2ecc71;
+}
+
+/* 🟤 Completed (갈색) */
+.status-box.completed .status-dot {
+  background-color: #8b4513;
+}
+.status-box.completed .status-text {
+  color: #8b4513;
+}
+
+/* 🟣 Deployed-Upgrading (보라색 예시) */
+.status-box.deployed-upgrading .status-dot {
+  background-color: #8e44ad;
+}
+.status-box.deployed-upgrading .status-text {
+  color: #8e44ad;
 }
