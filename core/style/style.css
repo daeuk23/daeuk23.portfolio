@@ -1266,31 +1266,46 @@ a {
   z-index: 2;
   background: white;
   border-radius: 10px;
-  padding: 15px;
+  padding: 15px 15px 60px; /* 아래쪽 여백 추가 */
   max-width: 90%;
   max-height: 80%;
   overflow-y: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 같은 크기 배치 */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 10px;
   justify-items: center;
+  align-content: start; /* 사진들이 위로부터 쌓이게 */
 }
 
 .photo-box img {
   width: 200px;
-  height: 200px; /* 정사각형 유지 */
-  object-fit: cover; /* 비율 왜곡 없이 자르기 */
+  height: 200px;
+  object-fit: cover;
   border-radius: 8px;
   transition: transform 0.2s;
 }
+
 .photo-box img:hover {
   transform: scale(1.05);
 }
 
+/* ✅ Close 버튼을 사진 하단 중앙에 고정 */
 .close-viewer {
-  display: block;
-  margin: 10px auto 0;
-  padding: 5px 10px;
+  grid-column: 1 / -1; /* 모든 열 차지해서 맨 아래로 */
+  justify-self: center;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.close-viewer:hover {
+  background: #555;
 }
 
 /* 상태 박스 */
