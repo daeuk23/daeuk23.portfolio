@@ -1226,7 +1226,7 @@ a {
 
 .project-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 12px;
   margin-top: auto;
 }
