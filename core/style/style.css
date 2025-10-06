@@ -1350,3 +1350,23 @@ a {
 .status-box.deployed-upgrading .status-text {
   color: #8e44ad;
 }
+
+.page-warning {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* 오른쪽 끝 정렬 */
+  gap: 8px;
+  margin-bottom: 8px;
+  margin-right: 20px; /* 살짝 안쪽으로 들이기 */
+  color: #b14d00;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: right;
+}
+
+.page-warning .warning-icon {
+  width: 20px;
+  height: 20px;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+}
