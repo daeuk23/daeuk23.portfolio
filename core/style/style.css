@@ -1280,7 +1280,7 @@ a {
 .photo-box img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 8px;
   transition: transform 0.2s;
 }
